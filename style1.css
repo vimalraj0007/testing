@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+background-color: palevioletred;
+position: relative;
+}
+
+.container{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 90px;
+    right: 500px;
+}
+
+.body1{
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+}
+
+.body2{
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    right: 0px;
+}
+
+.body3{
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.body4{
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.body5{
+    background-color: grey;
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: 200px;
+    right: 200px;i
+}
